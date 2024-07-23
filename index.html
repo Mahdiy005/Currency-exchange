@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video 4</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Select2 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <!-- Include Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  </head>
+  <body>
+    <h1>Currency exchange</h1>
+    <div class="container">
+      <input type="text" placeholder="Mount To Exchange" />
+      <div class="row">
+        <div class="btn">
+          <label for="from">From</label>
+          <select name="from-l" id="from">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="btn">
+          <label for="from">To</label>
+          <select name="from-r" id="to">
+            <option value=""></option>
+          </select>
+        </div>
+      </div>
+      <button id="calc">Calculate</button>
+      <div class="result"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

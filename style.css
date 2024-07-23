@@ -1,0 +1,53 @@
+#from ,#to {
+  width: 200px;
+}
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #ddd;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  max-width: 500px;
+  background-color: #eee;
+  margin: 50px auto;
+  padding: 30px;
+}
+.container input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  font-size: 22px;
+}
+.row {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+#calc {
+  padding: 10px 30px;
+  width: 100%;
+  margin-top: 20px;
+  background: gray;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  padding: 20px;
+  text-align: center;
+  background: #ccc;
+  font-size: 40px;
+  font-weight: bold;
+}
